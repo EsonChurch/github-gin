@@ -41,6 +41,7 @@ func NewRecipeHandler(c *gin.Context) {
 }
 func ListRecipesHandler(c *gin.Context) {
 	c.JSON(http.StatusOK, recipes)
+
 }
 
 func main() {
