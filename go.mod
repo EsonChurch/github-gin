@@ -1,4 +1,4 @@
-module hello-world
+module github-gin
 
 go 1.17
 
